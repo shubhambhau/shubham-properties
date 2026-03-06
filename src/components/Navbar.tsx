@@ -98,17 +98,17 @@ export function Navbar() {
       <nav className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
         <div className="flex items-center justify-between min-h-[68px] lg:min-h-[76px]">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group shrink-0">
+          <Link to="/" className="flex items-center gap-4 group shrink-0">
             <img
               src={spLogo}
               alt="Shubham Properties Logo"
-              className="w-10 h-10 rounded-xl object-contain transition-all duration-200 group-hover:scale-105"
+              className={`w-14 h-14 rounded-xl object-contain transition-all duration-200 group-hover:scale-105 ${useLightText ? 'brightness-0 invert' : ''}`}
             />
             <div className="hidden sm:block">
-              <div className={`font-heading font-bold text-base leading-tight ${brandNameClass}`}>
+              <div className={`font-heading font-bold text-xl leading-tight ${brandNameClass}`}>
                 Shubham Properties
               </div>
-              <div className={`font-body text-xs ${taglineClass}`}>
+              <div className={`font-body text-sm ${taglineClass}`}>
                 Nashik's Trusted Realtors
               </div>
             </div>

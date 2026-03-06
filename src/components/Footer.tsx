@@ -10,7 +10,7 @@ export function Footer() {
           {/* Brand & Contact */}
           <div>
             <Link to="/" className="flex items-center gap-3 mb-5 group">
-              <img src={spLogo} alt="Shubham Properties Logo" className="w-10 h-10 rounded-xl object-contain" />
+              <img src={spLogo} alt="Shubham Properties Logo" className="w-10 h-10 rounded-xl object-contain brightness-0 invert" />
               <div>
                 <div className="font-heading font-bold text-base text-white">Shubham Properties</div>
                 <div className="font-body text-xs text-blue-200">Nashik's Trusted Realtors</div>
