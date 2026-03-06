@@ -53,7 +53,7 @@ export function ServiceHero({
       <div
         className="absolute inset-0 z-[1]"
         style={{
-          background: 'linear-gradient(to bottom, rgba(14, 27, 56, 0.72) 0%, rgba(14, 27, 56, 0.78) 50%, rgba(14, 27, 56, 0.85) 100%)',
+          background: 'linear-gradient(135deg, rgba(23,37,84,0.75) 0%, rgba(30,58,138,0.75) 60%, rgba(29,78,216,0.75) 100%)',
         }}
       />
       <div className="absolute inset-0 z-[1] bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(235,211,157,0.06),transparent)] pointer-events-none" />

@@ -134,7 +134,7 @@ export function HomePage() {
     <div className="bg-white">
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #172554 0%, #1e3a8a 60%, #1d4ed8 100%)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(23,37,84,0.75) 0%, rgba(30,58,138,0.75) 60%, rgba(29,78,216,0.75) 100%)' }} />
         <div
           className="absolute inset-0 opacity-15"
           style={{ backgroundImage: `url(https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80)`, backgroundSize: 'cover', backgroundPosition: 'center', mixBlendMode: 'luminosity' }}

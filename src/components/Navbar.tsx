@@ -78,7 +78,9 @@ export function Navbar() {
   const useLightText = isTransparent || (!scrolled);
   const linkClass = useLightText ? 'text-white/90 hover:text-white' : 'text-slate-700 hover:text-primary-700';
   const activeClass = useLightText ? 'text-white font-semibold' : 'text-primary-700 font-semibold';
-  const brandNameClass = 'bg-gradient-to-r from-[#ff4da6] to-[#ffdd99] bg-clip-text text-transparent';
+  const brandNameClass = useLightText
+    ? 'bg-gradient-to-r from-[#ff4da6] to-[#ffdd99] bg-clip-text text-transparent'
+    : 'bg-gradient-to-r from-[#004d99] to-[#800080] bg-clip-text text-transparent';
   const taglineClass = useLightText ? 'text-white/70' : 'text-slate-500';
 
   function NavLink({ item }: { item: { path: string; label: string } }) {
