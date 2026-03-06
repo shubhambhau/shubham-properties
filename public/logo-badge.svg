@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet" fill="none" role="img" aria-label="Windsor Gate - Luxury Real Estate">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8D5A3"/>
+      <stop offset="50%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#B8960C"/>
+    </linearGradient>
+    <linearGradient id="goldStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B8960C"/>
+      <stop offset="50%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#E8D5A3"/>
+    </linearGradient>
+    <path id="topArc" d="M 28 78 A 72 72 0 0 1 172 78" fill="none"/>
+    <path id="bottomArc" d="M 172 122 A 72 72 0 0 1 28 122" fill="none"/>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="#0B1C2D"/>
+  <circle cx="100" cy="100" r="98" fill="none" stroke="url(#goldStroke)" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="93" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.9"/>
+  <g stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(100,100) scale(1.35)">
+    <path d="M 0 -22 L -19 6 L 19 6 Z"/>
+    <path d="M -19 6 L -19 22 L 19 22 L 19 6"/>
+    <path d="M -6 22 L -6 14 L 6 14 L 6 22"/>
+  </g>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="600" fill="url(#goldGrad)" letter-spacing="2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">WINDSOR GATE</textPath>
+  </text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="6.5" font-weight="400" fill="rgba(212,175,55,0.95)" letter-spacing="2.2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">LUXURY REAL ESTATE</textPath>
+  </text>
+</svg>
