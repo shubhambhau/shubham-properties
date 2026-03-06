@@ -10,13 +10,6 @@ import { getFeaturedProperties } from '../data/properties';
 import { servicesData } from '../data/services';
 import { blogPosts } from '../data/blog';
 
-const stats = [
-  { value: '15+', label: 'Years Experience' },
-  { value: '2500+', label: 'Properties Sold' },
-  { value: '1200+', label: 'Happy Clients' },
-  { value: '100+', label: 'Expert Agents' },
-];
-
 const whyChoose = [
   {
     icon: ShieldCheck,
@@ -398,4 +391,5 @@ export function HomePage() {
     </div>
   );
 }
+
 
