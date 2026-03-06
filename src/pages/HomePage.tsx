@@ -207,20 +207,6 @@ export function HomePage() {
         </motion.div>
       </section>
 
-      {/* STATS */}
-      <section className="bg-[#1e3a8a] py-12">
-        <div className="max-w-5xl mx-auto px-5 sm:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((s, i) => (
-              <motion.div key={s.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }} className="text-center">
-                <div className="text-3xl sm:text-4xl font-heading font-bold text-orange-400 mb-1">{s.value}</div>
-                <div className="text-white/70 text-sm">{s.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* PROPERTY CATEGORIES */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-6xl mx-auto px-5 sm:px-8">

@@ -33,8 +33,8 @@ export default {
         },
       },
       fontFamily: {
-        heading: ['Poppins', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Noto Sans', 'system-ui', 'sans-serif'],
+        body: ['Noto Sans', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         display: ['clamp(2.25rem, 5vw, 4rem)', { lineHeight: '1.1', letterSpacing: '-0.02em' }],

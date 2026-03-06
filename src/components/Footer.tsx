@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
+import spLogo from '../assets/sp logo.png';
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
           {/* Brand & Contact */}
           <div>
             <Link to="/" className="flex items-center gap-3 mb-5 group">
-              <div className="w-10 h-10 rounded-xl bg-white/15 ring-2 ring-white/30 flex items-center justify-center font-heading font-bold text-lg text-white">SP</div>
+              <img src={spLogo} alt="Shubham Properties Logo" className="w-10 h-10 rounded-xl object-contain" />
               <div>
                 <div className="font-heading font-bold text-base text-white">Shubham Properties</div>
                 <div className="font-body text-xs text-blue-200">Nashik's Trusted Realtors</div>
